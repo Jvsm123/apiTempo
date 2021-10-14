@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .navigator {
+  width: 80%;
+  margin-bottom: 2%;
+}
+.container .navigator ul {
+  display: flex;
+  justify-content: space-between;
+}
+.container .weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .foo {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */
